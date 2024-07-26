@@ -1,0 +1,23 @@
+{
+  "name": "gateway721-vm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D3LAB-DAO/gateway721-vm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D3LAB-DAO/gateway721-vm/issues"
+  },
+  "homepage": "https://github.com/D3LAB-DAO/gateway721-vm#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
