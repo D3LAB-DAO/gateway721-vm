@@ -10,7 +10,7 @@ $ node src/server.js
 $ curl -X POST http://localhost:3327/run \
 -H "Content-Type: application/json" \
 -d '{
-  "file": "./examples/simple_addition.js",
+  "code": "function addNumbers(params) { const { a, b } = params; return a + b; } mainFunction = addNumbers;",
   "inputs": { "a": 5, "b": 3 }
 }'
 ```
